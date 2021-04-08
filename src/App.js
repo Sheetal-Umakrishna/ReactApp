@@ -36,7 +36,7 @@ const App = () => {
 const addTask = (task) => {
 
   const id = Math.floor(Math.random () * 1000) + 1
-  const newTask = {id, ...task } /
+  const newTask = {id, ...task } 
   setTasks([...tasks, newTask]) 
 } 
 

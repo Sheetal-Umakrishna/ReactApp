@@ -12,14 +12,12 @@ const onSubmit = (e) => {
         alert('Please add a task')
         return
     }
-    else if (!day)
-    {
-        alert('Add Day and Time')
+    else if (!day) {
+        alert('Please add Day and Time')
         return
-    }
-    else if (!reminder)
-    {
-        alert('Check the reminder')
+    }    
+    else if (!reminder){
+        alert('Please check the reminder')
         return
     }
     onAdd( {text, day, reminder} )
